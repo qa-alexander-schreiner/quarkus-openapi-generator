@@ -80,7 +80,7 @@ public class OpenApiGeneratorStreamCodeGen extends OpenApiGeneratorCodeGenBase {
                                 this.mergeConfig(context, inputModel),
                                 openApiFilePath,
                                 outDir,
-                                context.workDir().resolve("classes").resolve("templates"),
+                                context.workDir().resolve("generated").resolve("templates"),
                                 isRestEasyReactive);
 
                         this.generate(options);
